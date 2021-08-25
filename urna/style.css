@@ -20,8 +20,8 @@ body {
 }
 
 .tela {
-    width: 500px;
-    height: 320px;
+    width: 520px;
+    height: 350px;
     background: linear-gradient( to right, #E8E8E8, #C1C1C1);
     border: 3px solid #403a3a;
     display: flex;
@@ -109,7 +109,7 @@ body {
     border: solid 1px #000;
     text-align: center;
     line-height: 40px;
-    font-size: 12px;
+    font-size: 2rem;
 }
 
 .pisca {
@@ -150,4 +150,16 @@ body {
     height: 50px;
     font-size: 1rem;
     border-top: 3px solid black;
+}
+
+.aviso--grande {
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.aviso--gigante {
+    font-size: 70px;
+    font-weight: bolder;
+    flex: 1;
+    display: flex;
 }
